@@ -1,0 +1,64 @@
+*{box-sizing: content-box !important;}
+body {background:transparent !important;}
+
+#time, #togglemin, #ajaxtimeout, #summary {display:none !important;}
+
+.double-val-label > span, #center, #stats, .col-lg-4, .btnoffline, .btnunknown, .btnonline  {box-shadow: none !important; -webkit-box-shadow:none !important;}
+
+#stats {
+    background-color:transparent !important;
+}
+
+#statusloop {
+    border-radius: 8px !important;
+    /*background-color: rgba(0,0,0,.15) !important;*/
+    background-color:transparent !important;
+    padding-left: .0rem !important;
+    padding-right: 1.11rem !important;
+    box-shadow: none !important;
+}
+
+.row{display: flex !important; flex-flow: row wrap!important; justify-content: space-evenly !important;}
+
+.col-lg-4 {
+    background-color:transparent !important;
+    margin: 1rem 1rem !important;
+    height: 1rem !important;
+}
+
+.servicetile, .servicetilenolink, .servicetileoffline {display:flex !important; max-height:20px !important;}
+#servicetitle, #servicetitlenolink, #servicetitleoffline {height: 1.5rem !important; font-size: 1rem !important;}
+.servicetile {display:flex !important;}
+
+.serviceimg {height: 1.5rem !important;}
+
+#serviceimg, #servicetitle, #servicetitlenolink, #servicetitleoffline  {
+    background-color: #656565 !important;
+    -webkit-filter: none !important;
+    filter: none !important;
+    margin-bottom: 0 !important;
+}
+
+#serviceimg  {
+    padding-left: 4px;
+    border-top-left-radius: 0.25em !important;
+    border-bottom-left-radius: 0.25em !important;
+}
+
+#servicetitle, #servicetitlenolink, #servicetitleoffline {
+    min-height:20px !important;
+    font-weight: 600 !important;
+    border-top-right-radius: 0em !important;
+    border-bottom-right-radius: 0em !important;
+}
+
+.servicetile:hover, .servicetile:focus {
+    text-shadow: none;
+}
+
+.btnonline {background-color: #28a745 !important;}
+.btnoffline, .btnunknown, .btnonline  {
+    margin-left: 0 !important;
+    padding: .1rem .5rem !important;
+    border-radius: 0px 2px 2px 0px !important;
+}
